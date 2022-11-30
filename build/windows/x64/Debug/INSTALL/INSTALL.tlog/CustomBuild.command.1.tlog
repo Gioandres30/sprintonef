@@ -1,0 +1,10 @@
+^C:\USERS\ASUS\DESKTOP\TIC\RETO1\S\SPRINT 1.1\BUILD\WINDOWS\CMAKEFILES\F508B9452E62FEE095FD803B847AC57F\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

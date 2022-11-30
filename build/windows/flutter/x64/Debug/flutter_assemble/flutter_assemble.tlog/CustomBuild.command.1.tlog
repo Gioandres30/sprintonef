@@ -1,0 +1,28 @@
+^C:\USERS\ASUS\DESKTOP\TIC\RETO1\S\SPRINT 1.1\BUILD\WINDOWS\CMAKEFILES\1ECC6488126AF49ADFF7691E92698A79\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\ASUS\Desktop\flutter "PROJECT_DIR=C:\Users\ASUS\Desktop\tic\reto1\s\sprint 1.1" FLUTTER_ROOT=C:\Users\ASUS\Desktop\flutter "FLUTTER_EPHEMERAL_DIR=C:\Users\ASUS\Desktop\tic\reto1\s\sprint 1.1\windows\flutter\ephemeral" "PROJECT_DIR=C:\Users\ASUS\Desktop\tic\reto1\s\sprint 1.1" "FLUTTER_TARGET=C:\Users\ASUS\Desktop\tic\reto1\s\sprint 1.1\lib\main.dart" DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=C:\Users\ASUS\Desktop\tic\reto1\s\sprint 1.1\.dart_tool\package_config.json" C:/Users/ASUS/Desktop/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ASUS\DESKTOP\TIC\RETO1\S\SPRINT 1.1\BUILD\WINDOWS\CMAKEFILES\203CD7B6A6128886D5B4C141984F362B\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ASUS\DESKTOP\TIC\RETO1\S\SPRINT 1.1\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/ASUS/Desktop/tic/reto1/s/sprint 1.1/windows" "-BC:/Users/ASUS/Desktop/tic/reto1/s/sprint 1.1/build/windows" --check-stamp-file "C:/Users/ASUS/Desktop/tic/reto1/s/sprint 1.1/build/windows/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^C:\USERS\ASUS\DESKTOP\TIC\RETO1\S\SPRINT 1.1\BUILD\WINDOWS\CMAKEFILES\F508B9452E62FEE095FD803B847AC57F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/ASUS/Desktop/tic/reto1/s/sprint 1.1/windows" "-BC:/Users/ASUS/Desktop/tic/reto1/s/sprint 1.1/build/windows" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/ASUS/Desktop/tic/reto1/s/sprint 1.1/build/windows/f_currency_converter_template.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

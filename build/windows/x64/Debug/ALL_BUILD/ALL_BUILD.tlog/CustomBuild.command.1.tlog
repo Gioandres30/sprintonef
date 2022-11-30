@@ -1,0 +1,10 @@
+^C:\USERS\ASUS\DESKTOP\TIC\RETO1\S\SPRINT 1.1\WINDOWS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/ASUS/Desktop/tic/reto1/s/sprint 1.1/windows" "-BC:/Users/ASUS/Desktop/tic/reto1/s/sprint 1.1/build/windows" --check-stamp-file "C:/Users/ASUS/Desktop/tic/reto1/s/sprint 1.1/build/windows/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
