@@ -10,6 +10,6 @@ El siguiente es un demo de la interfaz a la que se debe llegar (funcionalidades 
 
 Solución:
 
-https://github.com/dxmarquez/converterpage_grupo1_nrc2290
+
 
 video evidencia: https://youtu.be/-ln20mP6l_0
