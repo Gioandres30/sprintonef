@@ -12,4 +12,4 @@ Solución:
 
 https://github.com/dxmarquez/converterpage_grupo1_nrc2290
 
-https://youtu.be/EBvO12oKvGI ///video evidencia de la funcionalidad de la herramienta
+video evidencia: https://youtu.be/-ln20mP6l_0
